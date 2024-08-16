@@ -1,4 +1,4 @@
-local function export_props() --cccddfdssfsfdswfw
+local function export_props()
     local file = file.Open("props_export.txt", "w", "DATA")
     
     for _, ent in ipairs(ents.GetAll()) do
